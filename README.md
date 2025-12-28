@@ -2,7 +2,7 @@
 Identified highly efficient strikers who play fewer minutes but deliver top results.
 *(Top-left quadrant players are the best transfer targets)*
 
-![Efficiency Matrix](correlation.png) 
+![Efficiency Matrix](matrix.png) 
 ### 2. Metalist 1925 Squad Depth
 The team relies heavily on two players (Itodo & Antiukh).
 
