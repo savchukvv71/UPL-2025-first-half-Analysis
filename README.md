@@ -1,2 +1,19 @@
-# UPL-2025-first-half-Analysis
-Data analysis of Ukrainian Premier League player efficiency using SQL and Tableau.
+### 1. Efficiency Matrix (Minutes vs Goals)
+Identified highly efficient strikers who play fewer minutes but deliver top results.
+*(Top-left quadrant players are the best transfer targets)*
+
+![Efficiency Matrix](2025-12-21.jpg) 
+### 2. Metalist 1925 Squad Depth
+The team relies heavily on two players (Itodo & Antiukh).
+
+![Metalist Analysis](2025-12-21 (4).png)
+## 📂 Project Files
+* **[analysis_queries.sql](analysis_queries.sql):** The SQL code used for this analysis.
+* **[Google Data Analytics Capstone Project.pdf](Google Data Analytics Capstone Project.pdf):** Full detailed report.
+* **upl_players.csv / upl_teams.csv:** Raw datasets.
+
+## 🔗 Live Dashboard
+👉 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/views/UPL_project/Dashboard1)
+
+---
+*Author: Vadym Savchuk*
