@@ -1,0 +1,39 @@
+SQL
+SELECT
+  player_name,
+  team,
+  position,
+  goals,
+  minutes_played,
+  ROUND(minutes_played / goals, 0) AS minutes_per_goal
+FROM `upl_analysis_2025.upl_players`
+WHERE goals >= 3
+ORDER BY minutes_per_goal ASC
+LIMIT 10;
+SQL
+SELECT
+  team_name,
+  possession AS avg_possession,
+  goals,
+  ROUND(goals / possession, 2) AS efficiency_index
+FROM `upl_analysis_2025.upl_teams`
+ORDER BY possession DESC;
+SQL
+SELECT
+  team_name,
+  average_age,
+  goals,
+  players_used
+FROM `upl_analysis_2025.upl_teams`
+ORDER BY average_age ASC;
+SQL
+SELECT
+  player_name,
+  position,
+  goals,
+  assists,
+  (goals + assists) AS total_contribution,
+  minutes_played
+FROM `upl_analysis_2025.upl_players`
+WHERE team LIKE '%Metalist%'
+ORDER BY total_contribution DESC;     
