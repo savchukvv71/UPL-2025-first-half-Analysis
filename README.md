@@ -1,12 +1,12 @@
-### 1. Efficiency Matrix (2025-12-24.jpg)
+### 1. Efficiency Matrix (2025-12-24.png)
 Identified highly efficient strikers who play fewer minutes but deliver top results.
 *(Top-left quadrant players are the best transfer targets)*
 
-![Efficiency Matrix](2025-12-24 (5).jpg) 
+![Efficiency Matrix](2025-12-24 (5).png) 
 ### 2. Metalist 1925 Squad Depth
 The team relies heavily on two players (Itodo & Antiukh).
 
-![Metalist Analysis](2025-12-24 (2).jpg)
+![Metalist Analysis](2025-12-24 (2).png)
 ## 📂 Project Files
 * **[analysis_queries.sql](analysis_queries.sql.txt):** The SQL code used for this analysis.
 * **[Google Data Analytics Capstone Project.pdf](Google Data Analytics Capstone Project.pdf):** Full detailed report.
